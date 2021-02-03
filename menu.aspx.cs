@@ -14,7 +14,7 @@ namespace Geographie
 
         }
 
-        public void clicLiens(object sender, CommandEventArgs e)
+        public void clicLiens(object sender, EventArgs e)
         {
             if (sender.Equals(LinkButton1))
             {

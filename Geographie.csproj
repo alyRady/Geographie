@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="accueil.aspx" />
+    <Content Include="connexion.aspx" />
     <Content Include="menu.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
@@ -79,6 +80,13 @@
     </Compile>
     <Compile Include="accueil.aspx.designer.cs">
       <DependentUpon>accueil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="connexion.aspx.cs">
+      <DependentUpon>connexion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="connexion.aspx.designer.cs">
+      <DependentUpon>connexion.aspx</DependentUpon>
     </Compile>
     <Compile Include="menu.aspx.cs">
       <DependentUpon>menu.aspx</DependentUpon>

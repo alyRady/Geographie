@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="menu.aspx.cs" Inherits="Geographie.menu" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="connexion.aspx.cs" Inherits="Geographie.connexion" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -30,18 +30,20 @@ margin-left: 117px;
 </div>
 <!-- CONTENU DE LA PAGE -->
 <div id="contenu">
-    <asp:Label ID="LabelMenu" runat="server" Text="MENU" Font-Size="Medium"
+    <asp:Label ID="LabelAuth" runat="server" Text="Authentification" Font-Size="Medium"
         style="z-index: 1; left: 16px; top: 24px; position: absolute"></asp:Label>
-    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="clicLiens"
-        style="z-index: 1; left: 36px; top: 54px; position: absolute; font-size: medium">Liste des pays</asp:LinkButton>
-    <asp:LinkButton ID="LinkButton2" runat="server" OnClick="clicLiens"
-        style="z-index: 1; left: 36px; top: 84px; position: absolute; font-size: medium">Liste des pays par continent</asp:LinkButton>
-    <asp:LinkButton ID="LinkButton3" runat="server" OnClick="clicLiens"
-        style="z-index: 1; left: 36px; top: 114px; position: absolute; font-size: medium">Liste des montagnes par pays</asp:LinkButton>
-    <asp:LinkButton ID="LinkButton4" runat="server" OnClick="clicLiens"
-        style="z-index: 1; left: 36px; top: 144px; position: absolute; font-size: medium">Liste des fleuves par pays</asp:LinkButton>
-    <asp:Label ID="LabelSelection" runat="server" Text="Item sélectionné" Font-Size="Medium" Font-Bold="false"
-        style="z-index: 1; left: 16px; top: 194px; position: absolute"></asp:Label>
+    <asp:Label ID="LabelUtilisateur" runat="server" Text="Utilisateur" Font-Size="Medium" Font-Bold="false"
+        style="z-index: 1; left: 36px; top: 64px; position: absolute"></asp:Label>
+    <asp:Label ID="LabelMDP" runat="server" Text="Mot de passe" Font-Size="Medium" Font-Bold="false"
+        style="z-index: 1; left: 36px; top: 104px; position: absolute"></asp:Label>
+    <asp:TextBox ID="TextBoxUt" runat="server" AutoPostBack="True"
+        style="z-index: 1; left: 150px; top: 60px; position: absolute; height: 25px;" Width="150px"></asp:TextBox>
+    <asp:TextBox ID="TextBoxMDP" runat="server" AutoPostBack="True"
+        style="z-index: 1; left: 150px; top: 100px; position: absolute; height: 25px;" Width="150px"></asp:TextBox>
+    <asp:Button ID ="ButtonAnnuler" runat="server" Text="Annuler" 
+        style="z-index: 1; left : 150px; top : 170px; position: absolute"> </asp:Button>
+    <asp:Button ID ="ButtonValider" runat="server" Text="Valider" 
+        style="z-index: 1; left : 250px; top : 170px; position: absolute"> </asp:Button>
 <hr style="top: 5px; left: 0px; position: absolute; height: 2px; width: 713px" />
 <hr style="top: 455px; left: 0px; position: absolute; height: 2px; width: 713px" />    
 </div>
