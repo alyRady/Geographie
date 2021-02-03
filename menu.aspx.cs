@@ -18,15 +18,19 @@ namespace Geographie
         {
             if (sender.Equals(LinkButton1))
             {
-                LabelSelection.Text = "Vous avez sélectionné " + LinkButton1;
+                LabelSelection.Text = "Vous avez sélectionné : \"" + LinkButton1.Text +"\"";
             }
             if (sender.Equals(LinkButton2))
             {
-                
+                LabelSelection.Text = "Vous avez sélectionné : \"" + LinkButton2.Text + "\"";
             }
             if (sender.Equals(LinkButton3))
             {
-                
+                LabelSelection.Text = "Vous avez sélectionné : \"" + LinkButton3.Text + "\"";
+            }
+            if (sender.Equals(LinkButton4))
+            {
+                LabelSelection.Text = "Vous avez sélectionné : \"" + LinkButton4.Text + "\"";
             }
         }
 
