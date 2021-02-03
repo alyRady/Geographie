@@ -1,0 +1,48 @@
+body 			
+{
+	font-family: Arial, Verdana, Helvetica;  
+	font-size: 12px; 
+	margin: 0; 
+	padding: 0; 
+	background-color: #c0c0c0; 
+}
+
+/*CONTENEUR*/
+
+#conteneur 		
+{
+	position: relative; 
+	width: 700px; 
+	padding: 10px;
+	height: 600px; 
+	margin: 0 auto; 
+	background-color: #fff;
+	margin-top: 100px;
+	border: 1px solid #000;
+}
+#conteneur #divtitre 
+{
+	font-weight: bold;
+	text-align: center;
+	font-size: xx-large;
+}
+#conteneur #contenu
+{
+	float: left;
+	height: 490px;
+	width: 713px;
+	top: 118px;
+	left: 4px;
+	position: absolute;
+}
+
+#conteneur #contenu span
+{
+	font-weight: bold;
+}
+#conteneur #pied
+{
+	clear: both;
+	vertical-align: text-bottom;
+	text-align: right;
+}

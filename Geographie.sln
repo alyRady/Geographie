@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geographie", "Geographie.csproj", "{736DD20E-0077-451E-9C57-1184311BFFBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{736DD20E-0077-451E-9C57-1184311BFFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736DD20E-0077-451E-9C57-1184311BFFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736DD20E-0077-451E-9C57-1184311BFFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736DD20E-0077-451E-9C57-1184311BFFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3933099-D520-4F92-B10E-ECA3939F57CB}
+	EndGlobalSection
+EndGlobal
