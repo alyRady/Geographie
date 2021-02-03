@@ -13,5 +13,20 @@ namespace Geographie
         {
 
         }
+
+        public void clickValider(object sender, EventArgs e)
+        {
+            if (TextBoxUt.Text == "" && TextBoxMDP.Text == "")
+                Server.Transfer("accueil.aspx");
+            else if (TextBoxUt.Text != "" && TextBoxMDP.Text == "")
+                Server.Transfer("accueil.aspx");
+            else if (TextBoxUt.Text == "" && TextBoxMDP.Text != "")
+                Server.Transfer("accueil.aspx");
+            else if (TextBoxUt.Text != "" && TextBoxMDP.Text != "")
+            {
+                Session["identifiant"] = TextBoxUt.Text;
+                Server.Transfer("menu.aspx");
+            }
+        }
     }
 }

@@ -25,7 +25,7 @@ margin-left: 117px;
 <div id="divtitre">
 <img alt="Logo" src="Logo_Terre.jpg" width="80" height="100" />
 <asp:Label ID="Titre" runat="server" Text=" Géographie "/>
-<asp:Button ID ="ButtonDeconnexion" runat="server" Text="Déconnexion" 
+<asp:Button ID ="ButtonDeconnexion" runat="server" Text="Déconnexion" PostBackUrl="~/accueil.aspx"
     style="z-index: 1; right : 20px; top : 70px; position: absolute"> </asp:Button>
 </div>
 <!-- CONTENU DE LA PAGE -->
@@ -47,7 +47,7 @@ margin-left: 117px;
 </div>
 <!-- PIED DE LA PAGE -->
 <div id="pied">
-<asp:Label ID="LabelPied" runat="server" Text="Site r&eacute;alis&eacute; par A. RADY" style="z-index: 1; left: 580px; top: 591px; position: absolute"></asp:Label>
+<asp:Label ID="LabelPied" runat="server" Text="Site r&eacute;alis&eacute; par A. RADY et J. ROBARDET" style="z-index: 1; left: 485px; top: 591px; position: absolute"></asp:Label>
 </div>
 </div>
 </form>
